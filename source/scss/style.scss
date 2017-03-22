@@ -1,0 +1,38 @@
+@import "_variables";
+
+body {
+  font-family: $serif-fonts;
+  font-size: $font-base-size;
+}
+
+h1 {
+  color: $palette-one;
+}
+
+h2 {
+  color: $palette-two;
+}
+
+h3 {
+  color: $palette-three;
+}
+
+h4 {
+  color: $palette-four;
+}
+
+h5 {
+  color: lighten($palette-four, 10%);
+}
+
+input {
+  border-radius: $border-radius;
+  font-family: $serif-fonts;
+  font-size: $font-base-size;
+}
+
+textarea {
+  border-radius: $border-radius;
+  font-family: $serif-fonts;
+  font-size: $font-base-size;
+}
