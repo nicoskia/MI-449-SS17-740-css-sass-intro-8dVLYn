@@ -25,14 +25,30 @@ h5 {
   color: lighten($palette-four, 10%);
 }
 
-input {
-  border-radius: $border-radius;
-  font-family: $serif-fonts;
-  font-size: $font-base-size;
+label {
+  font-size: $font-base-size * 1.25;
+  color: $palette-three;
 }
 
+table,
+th,
+td {
+  border: $set-border;
+}
+
+th:hover {
+  color: $palette-four;
+}
+
+tr:nth-child(even) {
+  background-color: $palette-one;
+}
+
+img,
+input,
 textarea {
   border-radius: $border-radius;
   font-family: $serif-fonts;
   font-size: $font-base-size;
+  border: $set-border;
 }
