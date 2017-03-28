@@ -25,6 +25,15 @@ h5 {
   color: lighten($palette-four, 10%);
 }
 
+a {
+  font-size: $font-base-size * 0.8;
+  color: $palette-four;
+
+  &:hover {
+    color: lighten($palette-four, 10%);
+  }
+}
+
 label {
   font-size: $font-base-size * 1.25;
   color: $palette-three;
